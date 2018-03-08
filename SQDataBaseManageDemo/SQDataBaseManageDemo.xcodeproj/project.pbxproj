@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4684BC7C877F4352BA1F84CA /* libPods-SQDataBaseManageDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A034D6522B991A2E3E6BD9E6 /* libPods-SQDataBaseManageDemo.a */; };
+		ABF380AB2051202D00E50E61 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380AA2051202D00E50E61 /* AppDelegate.m */; };
+		ABF380AE2051202D00E50E61 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380AD2051202D00E50E61 /* ViewController.m */; };
+		ABF380B12051202D00E50E61 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF380AF2051202D00E50E61 /* Main.storyboard */; };
+		ABF380B32051202D00E50E61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABF380B22051202D00E50E61 /* Assets.xcassets */; };
+		ABF380B62051202D00E50E61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABF380B42051202D00E50E61 /* LaunchScreen.storyboard */; };
+		ABF380B92051202D00E50E61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380B82051202D00E50E61 /* main.m */; };
+		ABF380C22051228B00E50E61 /* SQDataBaseManage.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380C12051228B00E50E61 /* SQDataBaseManage.m */; };
+		ABF380C5205122B900E50E61 /* HomeCoupon.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380C4205122B900E50E61 /* HomeCoupon.m */; };
+		ABF380C8205139D200E50E61 /* SQUser.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380C7205139D200E50E61 /* SQUser.m */; };
+		ABF380CB20513AB700E50E61 /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = ABF380CA20513AB700E50E61 /* UserViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39F1EB36E1C1C5BA0B954DF0 /* Pods-SQDataBaseManageDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQDataBaseManageDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SQDataBaseManageDemo/Pods-SQDataBaseManageDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		5C74B925A6B4D29BB73FA00C /* Pods-SQDataBaseManageDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SQDataBaseManageDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SQDataBaseManageDemo/Pods-SQDataBaseManageDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A034D6522B991A2E3E6BD9E6 /* libPods-SQDataBaseManageDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SQDataBaseManageDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF380A62051202D00E50E61 /* SQDataBaseManageDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SQDataBaseManageDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABF380A92051202D00E50E61 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		ABF380AA2051202D00E50E61 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		ABF380AC2051202D00E50E61 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		ABF380AD2051202D00E50E61 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		ABF380B02051202D00E50E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		ABF380B22051202D00E50E61 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		ABF380B52051202D00E50E61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		ABF380B72051202D00E50E61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABF380B82051202D00E50E61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		ABF380C02051228B00E50E61 /* SQDataBaseManage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SQDataBaseManage.h; sourceTree = "<group>"; };
+		ABF380C12051228B00E50E61 /* SQDataBaseManage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SQDataBaseManage.m; sourceTree = "<group>"; };
+		ABF380C3205122B900E50E61 /* HomeCoupon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeCoupon.h; sourceTree = "<group>"; };
+		ABF380C4205122B900E50E61 /* HomeCoupon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeCoupon.m; sourceTree = "<group>"; };
+		ABF380C6205139D200E50E61 /* SQUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SQUser.h; sourceTree = "<group>"; };
+		ABF380C7205139D200E50E61 /* SQUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SQUser.m; sourceTree = "<group>"; };
+		ABF380C920513AB700E50E61 /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		ABF380CA20513AB700E50E61 /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ABF380A32051202D00E50E61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4684BC7C877F4352BA1F84CA /* libPods-SQDataBaseManageDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2E6B211FE97C100A333E88DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39F1EB36E1C1C5BA0B954DF0 /* Pods-SQDataBaseManageDemo.debug.xcconfig */,
+				5C74B925A6B4D29BB73FA00C /* Pods-SQDataBaseManageDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E1BAEEE7CDD123250CC4CEB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A034D6522B991A2E3E6BD9E6 /* libPods-SQDataBaseManageDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ABF3809D2051202D00E50E61 = {
+			isa = PBXGroup;
+			children = (
+				ABF380BF2051228B00E50E61 /* SQDataBaseManage */,
+				ABF380A82051202D00E50E61 /* SQDataBaseManageDemo */,
+				ABF380A72051202D00E50E61 /* Products */,
+				2E6B211FE97C100A333E88DA /* Pods */,
+				8E1BAEEE7CDD123250CC4CEB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		ABF380A72051202D00E50E61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ABF380A62051202D00E50E61 /* SQDataBaseManageDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ABF380A82051202D00E50E61 /* SQDataBaseManageDemo */ = {
+			isa = PBXGroup;
+			children = (
+				ABF380C3205122B900E50E61 /* HomeCoupon.h */,
+				ABF380C4205122B900E50E61 /* HomeCoupon.m */,
+				ABF380C6205139D200E50E61 /* SQUser.h */,
+				ABF380C7205139D200E50E61 /* SQUser.m */,
+				ABF380A92051202D00E50E61 /* AppDelegate.h */,
+				ABF380AA2051202D00E50E61 /* AppDelegate.m */,
+				ABF380AC2051202D00E50E61 /* ViewController.h */,
+				ABF380AD2051202D00E50E61 /* ViewController.m */,
+				ABF380C920513AB700E50E61 /* UserViewController.h */,
+				ABF380CA20513AB700E50E61 /* UserViewController.m */,
+				ABF380AF2051202D00E50E61 /* Main.storyboard */,
+				ABF380B22051202D00E50E61 /* Assets.xcassets */,
+				ABF380B42051202D00E50E61 /* LaunchScreen.storyboard */,
+				ABF380B72051202D00E50E61 /* Info.plist */,
+				ABF380B82051202D00E50E61 /* main.m */,
+			);
+			path = SQDataBaseManageDemo;
+			sourceTree = "<group>";
+		};
+		ABF380BF2051228B00E50E61 /* SQDataBaseManage */ = {
+			isa = PBXGroup;
+			children = (
+				ABF380C02051228B00E50E61 /* SQDataBaseManage.h */,
+				ABF380C12051228B00E50E61 /* SQDataBaseManage.m */,
+			);
+			name = SQDataBaseManage;
+			path = ../SQDataBaseManage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ABF380A52051202D00E50E61 /* SQDataBaseManageDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ABF380BC2051202D00E50E61 /* Build configuration list for PBXNativeTarget "SQDataBaseManageDemo" */;
+			buildPhases = (
+				E3B76F6D1EB858CD7BB11E4F /* [CP] Check Pods Manifest.lock */,
+				ABF380A22051202D00E50E61 /* Sources */,
+				ABF380A32051202D00E50E61 /* Frameworks */,
+				ABF380A42051202D00E50E61 /* Resources */,
+				C74BCFCF74DC2F75F2B7EF2E /* [CP] Embed Pods Frameworks */,
+				5F84C5114DF7B86BEFE07673 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SQDataBaseManageDemo;
+			productName = SQDataBaseManageDemo;
+			productReference = ABF380A62051202D00E50E61 /* SQDataBaseManageDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ABF3809E2051202D00E50E61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = lhq;
+				TargetAttributes = {
+					ABF380A52051202D00E50E61 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = ABF380A12051202D00E50E61 /* Build configuration list for PBXProject "SQDataBaseManageDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ABF3809D2051202D00E50E61;
+			productRefGroup = ABF380A72051202D00E50E61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ABF380A52051202D00E50E61 /* SQDataBaseManageDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ABF380A42051202D00E50E61 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF380B62051202D00E50E61 /* LaunchScreen.storyboard in Resources */,
+				ABF380B32051202D00E50E61 /* Assets.xcassets in Resources */,
+				ABF380B12051202D00E50E61 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F84C5114DF7B86BEFE07673 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQDataBaseManageDemo/Pods-SQDataBaseManageDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C74BCFCF74DC2F75F2B7EF2E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SQDataBaseManageDemo/Pods-SQDataBaseManageDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3B76F6D1EB858CD7BB11E4F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SQDataBaseManageDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ABF380A22051202D00E50E61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ABF380CB20513AB700E50E61 /* UserViewController.m in Sources */,
+				ABF380C5205122B900E50E61 /* HomeCoupon.m in Sources */,
+				ABF380AE2051202D00E50E61 /* ViewController.m in Sources */,
+				ABF380B92051202D00E50E61 /* main.m in Sources */,
+				ABF380AB2051202D00E50E61 /* AppDelegate.m in Sources */,
+				ABF380C8205139D200E50E61 /* SQUser.m in Sources */,
+				ABF380C22051228B00E50E61 /* SQDataBaseManage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		ABF380AF2051202D00E50E61 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF380B02051202D00E50E61 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		ABF380B42051202D00E50E61 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				ABF380B52051202D00E50E61 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		ABF380BA2051202D00E50E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		ABF380BB2051202D00E50E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		ABF380BD2051202D00E50E61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39F1EB36E1C1C5BA0B954DF0 /* Pods-SQDataBaseManageDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 865L62UDE9;
+				INFOPLIST_FILE = SQDataBaseManageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BT.SQDataBaseManageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		ABF380BE2051202D00E50E61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C74B925A6B4D29BB73FA00C /* Pods-SQDataBaseManageDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 865L62UDE9;
+				INFOPLIST_FILE = SQDataBaseManageDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.BT.SQDataBaseManageDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ABF380A12051202D00E50E61 /* Build configuration list for PBXProject "SQDataBaseManageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF380BA2051202D00E50E61 /* Debug */,
+				ABF380BB2051202D00E50E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ABF380BC2051202D00E50E61 /* Build configuration list for PBXNativeTarget "SQDataBaseManageDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABF380BD2051202D00E50E61 /* Debug */,
+				ABF380BE2051202D00E50E61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ABF3809E2051202D00E50E61 /* Project object */;
+}
