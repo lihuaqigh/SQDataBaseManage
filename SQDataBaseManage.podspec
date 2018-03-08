@@ -21,4 +21,7 @@ Pod::Spec.new do |s|
     s.source       = { :git => 'https://github.com/lihuaqigh/SQDataBaseManage.git', :tag => s.version.to_s }
     s.source_files        = 'SQDataBaseManage/**/*.{h,m}'
     s.public_header_files = 'SQDataBaseManage/**/*.{h}'
+
+    s.dependency 'LKDBHelper', '~> 2.4.3'
+    s.dependency 'SDWebImage', '~> 3.8.2'
 end

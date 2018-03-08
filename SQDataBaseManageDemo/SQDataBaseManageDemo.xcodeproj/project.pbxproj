@@ -95,10 +95,6 @@
 		ABF380A82051202D00E50E61 /* SQDataBaseManageDemo */ = {
 			isa = PBXGroup;
 			children = (
-				ABF380C3205122B900E50E61 /* HomeCoupon.h */,
-				ABF380C4205122B900E50E61 /* HomeCoupon.m */,
-				ABF380C6205139D200E50E61 /* SQUser.h */,
-				ABF380C7205139D200E50E61 /* SQUser.m */,
 				ABF380A92051202D00E50E61 /* AppDelegate.h */,
 				ABF380AA2051202D00E50E61 /* AppDelegate.m */,
 				ABF380AC2051202D00E50E61 /* ViewController.h */,
@@ -119,6 +115,10 @@
 			children = (
 				ABF380C02051228B00E50E61 /* SQDataBaseManage.h */,
 				ABF380C12051228B00E50E61 /* SQDataBaseManage.m */,
+				ABF380C3205122B900E50E61 /* HomeCoupon.h */,
+				ABF380C4205122B900E50E61 /* HomeCoupon.m */,
+				ABF380C6205139D200E50E61 /* SQUser.h */,
+				ABF380C7205139D200E50E61 /* SQUser.m */,
 			);
 			name = SQDataBaseManage;
 			path = ../SQDataBaseManage;
